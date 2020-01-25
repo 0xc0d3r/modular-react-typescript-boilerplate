@@ -1,0 +1,10 @@
+{
+   "app": {
+      "learnReact": "React सीखें"
+   },
+   "common": {
+      "failureView": {
+         "retry": "पुन: प्रयास करें"
+      }
+   }
+}

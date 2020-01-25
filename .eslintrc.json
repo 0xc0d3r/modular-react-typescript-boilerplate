@@ -1,0 +1,116 @@
+{
+   "parser": "@typescript-eslint/parser",
+   "plugins": ["react", "@typescript-eslint", "prettier", "import"],
+   "parserOptions": {
+      "ecmaFeatures": {
+         "jsx": true
+      },
+      "useJSXTextNode": true,
+      "project": "./tsconfig.json"
+   },
+   "env": {
+      "browser": true,
+      "node": true,
+      "es6": true,
+      "jest": true
+   },
+   "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:import/typescript",
+      "prettier/@typescript-eslint",
+      "plugin:prettier/recommended",
+      "prettier",
+      "prettier/react",
+      "eslint-config-prettier"
+   ],
+   "rules": {
+      //TODO:Need to add some more rules to this file
+
+      "prettier/prettier": ["error", { "singleQuote": true }],
+
+      "arrow-body-style": [2, "as-needed"],
+      "comma-dangle": [2, "never"],
+      "max-depth": 0,
+      "max-len": 0,
+      "max-params": 0,
+      "max-statements": 0,
+      "newline-per-chained-call": 0,
+      "no-confusing-arrow": [0, { "allowParens": false }],
+      "no-use-before-define": 0,
+      "prefer-template": 2,
+      "class-methods-use-this": 0,
+      "require-yield": 0,
+      "prefer-promise-reject-errors": 0,
+      "camelcase": "off",
+      "@typescript-eslint/camelcase": [
+         "error",
+         {
+            "properties": "never",
+            "ignoreDestructuring": true
+         }
+      ],
+      "@typescript-eslint/interface-name-prefix": 1,
+      "no-underscore-dangle": [
+         "error",
+         {
+            "allowAfterThis": true,
+            "allowAfterSuper": true
+         }
+      ],
+      "function-paren-newline": 0,
+      "no-else-return": 1,
+      "semi": 0,
+      "quotes": 0,
+      "arrow-parens": 0,
+      "no-nested-ternary": 0,
+
+      "react/no-array-index-key": 0,
+      "react/destructuring-assignment": 0,
+      "react/jsx-closing-tag-location": 0,
+      "react/forbid-prop-types": 0,
+      "react/jsx-first-prop-new-line": [2, "multiline"],
+      "react/jsx-filename-extension": 0,
+      "react/jsx-no-target-blank": 0,
+      "react/jsx-uses-vars": 2,
+      "react/require-default-props": 0,
+      "react/require-extension": 0,
+      "react/self-closing-comp": 0,
+      "react/sort-comp": 0,
+
+      /****
+       The following rules are made available via `eslint-plugin-import`
+    ****/
+
+      "import/extensions": 0,
+      "import/order": [
+         "error",
+         {
+            "groups": [
+               "builtin",
+               "external",
+               "internal",
+               "parent",
+               "sibling",
+               "index"
+            ]
+         }
+      ],
+      "import/imports-first": 0,
+      "import/newline-after-import": 0,
+      "import/no-dynamic-require": 0
+   },
+   "settings": {
+      "react": {
+         "pragma": "React",
+         "version": "detect"
+      }
+   },
+   "globals": {
+      "GLOBAL": true
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "app": {
+      "learnReact": "Learn React"
+   },
+   "common": {
+      "failureView": {
+         "retry": "Retry"
+      }
+   }
+}

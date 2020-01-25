@@ -1,0 +1,22 @@
+body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+   -webkit-tap-highlight-color: transparent;
+}
+
+.suspense-loading-view.suspense-loading-view {
+   display: flex;
+   flex: 1;
+   height: 100vh;
+   padding-top: 70px;
+   align-items: center;
+   justify-content: center;
+   background-color: #f7fbff;
+}
