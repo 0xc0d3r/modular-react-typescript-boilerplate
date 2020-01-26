@@ -6,13 +6,33 @@ A modular boilerplate suitable for large and complex applications built with lat
 
 ## Table of Contents
 
-1. [Quick start](#quick-start)
-2. [Introduction](#introduction)
+1. [Introduction](#introduction)
+2. [Quick start](#quick-start)
 3. [Tech Stack](#tech-stack)
 4. [Best practices](#best-practices)
+
    4.1 [Clean Code](#clean-code)
    4.2 [Test-driven Development](#tdd)
+
 5. [Contributing](#contributing)
+
+> Please note that this boilerplate is **production-ready and not meant for beginners**! If you're just starting out with react or redux, please refer to https://github.com/petehunt/react-howto instead. If you want a solid, battle-tested base to build your next product upon and have some experience with react, this is the perfect start for you.
+
+### Introduction
+
+Most of the react developers might have spent more than 6+ hours of time to create a development-ready repo to start the development. Thanks to react community 🙏 for creating a bunch of awesome [starter-kits](https://ku.reactjs.org/community/starter-kits.html).
+
+I've worked on 15+ complex and feature-rich projects developed with React and React Native. For all of the projects, below things are must to achieve all _-abilities_.
+
+-  Test cases environment
+-  Linting (eslint)
+-  Code formatter (prettier)
+-  Hooks (Ex: Pre-commit hook)
+-  Internationalization (I18n)
+-  Storybook
+-  Build environments and npm scripts
+
+If your project has many modules, then I suggest you to follow the [folder structure](#folder-structure) followed in this repo.
 
 ### Quick start
 
@@ -24,4 +44,24 @@ A modular boilerplate suitable for large and complex applications built with lat
 
 Now you're ready to rumble!
 
-> Please note that this boilerplate is **production-ready and not meant for beginners**! If you're just starting out with react or redux, please refer to https://github.com/petehunt/react-howto instead. If you want a solid, battle-tested base to build your next product upon and have some experience with react, this is the perfect start for you.
+### Tech stack
+
+This boilerplate is built with modern frontend tools. There are community opinionated tools like Typescript and MobX. Trust me, these two adds of lot of value to the development in terms of less type errors/bugs, less boilerplate with MobX and leveraging Object oriented principles.
+
+-  React
+-  Typescript
+-  MobX
+-  Webpack
+-  Styled Components
+-  Jest, react-testing-library
+
+Below tools/libraries provide best developer experience in a team
+
+-  husky
+-  yarnhook
+-  lint-staged
+-  madge
+
+### Contributing
+
+Anyone and everyone is welcome to contribute to this project. The best way to start is by checking our open issues, submit a new issue or feature request, participate in discussions, upvote or downvote the issues you like or dislike, send pull requests.
