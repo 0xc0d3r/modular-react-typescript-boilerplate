@@ -7,14 +7,16 @@ A modular boilerplate suitable for large and complex applications built with lat
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Quick start](#quick-start)
+2. [Quick Start](#quick-start)
 3. [Tech Stack](#tech-stack)
-4. [Best practices](#best-practices)
+4. [Folder Structure](#folder-structure)
+5. [Best Practices](#best-practices)
 
-   4.1 [Clean Code](#clean-code)
-   4.2 [Test-driven Development](#tdd)
+   5.1 [Clean Code](#clean-code)
 
-5. [Contributing](#contributing)
+   5.2 [Test-driven Development](#tdd)
+
+6. [Contributing](#contributing)
 
 > Please note that this boilerplate is **production-ready and not meant for beginners**! If you're just starting out with react or redux, please refer to https://github.com/petehunt/react-howto instead. If you want a solid, battle-tested base to build your next product upon and have some experience with react, this is the perfect start for you.
 
@@ -46,7 +48,7 @@ Now you're ready to rumble!
 
 ### Tech stack
 
-This boilerplate is built with modern frontend tools. There are community opinionated tools like Typescript and MobX. Trust me, these two adds of lot of value to the development in terms of less type errors/bugs, less boilerplate with MobX and leveraging Object oriented principles.
+This boilerplate is built with modern frontend tools. There are community opinionated tools like Typescript and MobX. Trust me, these two adds a lot of value to the development in terms of less type errors/bugs, less boilerplate with MobX and leveraging Object oriented principles.
 
 -  React
 -  Typescript
@@ -61,6 +63,67 @@ Below tools/libraries provide best developer experience in a team
 -  yarnhook
 -  lint-staged
 -  madge
+
+### Folder Structure
+
+```
+COMMON
+    components
+    constants
+    fixtures
+    i18n
+    images
+    navigation
+    routes
+    services
+    stores
+    styleGuide
+    themes
+    utils
+
+
+MODULE1
+    components
+    constants
+    fixtures
+    routes
+    services
+    stores
+    themes
+    utils
+
+MODULE2
+    components
+    constants
+    fixtures
+    routes
+    services
+    stores
+    themes
+    utils
+```
+
+### Best Practices
+
+Developers are often tempted to consider their work complete when the application operates as expected. And We often forget to refactor the code as per clean code guidelines, not following the suitable design patterns, not writing the test cases, etc.
+
+If we do not follow the best practices, your code will become messy and developers resist to modify or add new features. Below are some of the practices I follow while developing
+
+-  [7 architectural attributes of a reliable react component](https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component/)
+-  [Clean code by Robert C Martin](https://www.amazon.in/Clean-Code-Robert-C-Martin/dp/8131773388/)
+-  [Test-driven Development (TDD) by Kent Beck](https://www.amazon.in/Test-Driven-Development-Kent-Beck/dp/8131715957)
+-  [Clean architecture by Robert C Martin](https://www.amazon.in/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164)
+
+#### Clean Code
+
+![Clean Code Image](https://camo.githubusercontent.com/0607e034aee88cce40b832367d44265e01b42654/68747470733a2f2f7777772e6f736e6577732e636f6d2f696d616765732f636f6d6963732f7774666d2e6a7067)
+
+> Programming is the art of telling another human what one wants the computer to do.
+> Donald Knuth
+
+Clean code is about recognizing that your audience isn't just a computer, it's real-live humans! Let's keep this in our mind and develop quality software.
+
+Thanks to [ryanmcdermott](https://github.com/ryanmcdermott) for creating [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript).
 
 ### Contributing
 
