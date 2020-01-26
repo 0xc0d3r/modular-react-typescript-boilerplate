@@ -50,19 +50,19 @@ Now you're ready to rumble!
 
 This boilerplate is built with modern frontend tools. There are community opinionated tools like Typescript and MobX. Trust me, these two adds a lot of value to the development in terms of less type errors/bugs, less boilerplate with MobX and leveraging Object oriented principles.
 
--  React
--  Typescript
--  MobX
--  Webpack
--  Styled Components
--  Jest, react-testing-library
+-  [React](http://github.com/facebook/react)
+-  [Typescript](https://github.com/microsoft/typescript)
+-  [MobX](https://github.com/mobxjs/mobx)
+-  [Webpack](https://github.com/webpack/webpack)
+-  [Styled Components](https://github.com/styled-components/styled-components)
+-  [Jest](https://github.com/facebook/jest), [react-testing-library](https://github.com/testing-library/react-testing-library)
 
 Below tools/libraries provide best developer experience in a team
 
--  husky
--  yarnhook
--  lint-staged
--  madge
+-  [husky](https://github.com/typicode/husky)
+-  [yarnhook](https://github.com/frontsideair/yarnhook)
+-  [lint-staged](https://github.com/okonet/lint-staged)
+-  [madge](https://github.com/pahen/madge)
 
 ### Folder Structure
 
