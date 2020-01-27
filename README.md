@@ -43,6 +43,7 @@ If your project has many modules, then I suggest you to follow the [folder struc
 3. Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.<br />
 4. Run `yarn setup` in order to install dependencies and clean the git repo.<br />
    _At this point you can run `yarn start` to see the output at `http://localhost:3000`._
+5. Follow this [guide](/docs/how-to-build.md) to build the application in various environments (Ex: alpha, production, etc.)
 
 Now you're ready to rumble!
 
@@ -63,6 +64,10 @@ Below tools/libraries provide best developer experience in a team
 -  [yarnhook](https://github.com/frontsideair/yarnhook)
 -  [lint-staged](https://github.com/okonet/lint-staged)
 -  [madge](https://github.com/pahen/madge)
+
+#### Do you use Redux?
+
+I want to add support for Redux as well as most of the developers use it. You can create a pull-request if you want to contribute.
 
 ### Folder Structure
 
