@@ -125,6 +125,14 @@ Clean code is about recognizing that your audience isn't just a computer, it's r
 
 Thanks to [ryanmcdermott](https://github.com/ryanmcdermott) for creating [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript).
 
+#### Test-driven Development (TDD)
+
+The Test Driven Development (TDD) is a software engineering practice that requires unit tests to be written before the code they are supposed to validate.
+
+![TDD Cycle](https://hackernoon.com/hn-images/1*2IVfvMKBCcwHJYO7-HZRDA.png)
+
+Check the implementation of the [Todo App](https://github.com/0xc0d3r/todo-app-with-tdd) following TDD and I committed for each state. You can see Red, Green, and Refactor commits.
+
 ### Contributing
 
 Anyone and everyone is welcome to contribute to this project. The best way to start is by checking our open issues, submit a new issue or feature request, participate in discussions, upvote or downvote the issues you like or dislike, send pull requests.
