@@ -7,12 +7,14 @@ import TodoInput from '../../components/TodoInput'
 import TodoList from '../../components/TodoList'
 import TodoFooter from '../../components/TodoFooter'
 
+import { TodoAppContainer, TodoApp } from './styledComponents'
+
 interface TodoAppProps {
   todoStore: TodoStore
 }
 
 @inject('todoStore')
-class TodoApp extends Component<TodoAppProps> {
+class TodoAppPage extends Component<TodoAppProps> {
   onPressEnterKey = (todoDescription: string): void => {
     const { todoStore } = this.props
     todoStore.addTodo(todoDescription)
@@ -21,12 +23,14 @@ class TodoApp extends Component<TodoAppProps> {
   render() {
     const { todoStore } = this.props
     return (
-      <div>
-        <TodoInput onPressEnterKey={this.onPressEnterKey} />
-        <TodoList todoStore={todoStore} />
-        <TodoFooter todoStore={todoStore} />
-      </div>
+      <TodoAppContainer>
+        <TodoApp>
+          <TodoInput onPressEnterKey={this.onPressEnterKey} />
+          <TodoList todoStore={todoStore} />
+          <TodoFooter todoStore={todoStore} />
+        </TodoApp>
+      </TodoAppContainer>
     )
   }
 }
-export default TodoApp
+export default TodoAppPage

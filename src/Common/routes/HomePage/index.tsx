@@ -1,25 +1,25 @@
-import React from 'react';
+import React, { ReactElement } from 'react'
 
 import {
   HomePageContainer,
   Header,
   HeaderText,
   ReactMobXTSContainer
-} from './styledComponents';
+} from './styledComponents'
 
-import ReactMobXTSLogo from './react_mobx_typescript.png';
+import ReactMobXTSLogo from './react_mobx_typescript.png'
 
-function HomePage() {
+function HomePage(): ReactElement {
   return (
     <HomePageContainer>
       <Header>
         <HeaderText>Modular React MobX Typescript Boilerplate</HeaderText>
       </Header>
       <ReactMobXTSContainer>
-        <img src={ReactMobXTSLogo} alt="React MobX TypeScript" />
+        <img src={ReactMobXTSLogo} alt='React MobX TypeScript' />
       </ReactMobXTSContainer>
     </HomePageContainer>
-  );
+  )
 }
 
-export default HomePage;
+export default HomePage

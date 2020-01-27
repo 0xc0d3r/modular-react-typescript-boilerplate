@@ -8,6 +8,7 @@ import Routes from '../index'
 
 import todoAppStores from '../../../TodoApp/stores'
 
+import './App.css'
 interface Props {}
 
 class App extends Component<Props> {
