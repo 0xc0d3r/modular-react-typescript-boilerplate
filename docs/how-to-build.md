@@ -59,3 +59,15 @@ This is the build which we push to `production` environment. Run below command t
 ```
 yarn build:master
 ```
+
+If you want to customize any of the above build commands, you need to modify npm scripts written in `package.json`.
+
+```
+{
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build:beta": "set \"CI=false\" && env-cmd -f .env.beta yarn build",
+    "build:gamma": "set \"CI=false\" && env-cmd -f .env.gamma yarn build",
+    "build:staging": "set \"CI=false\" && env-cmd -f .env.staging yarn build",
+    "build:master": "set \"CI=false\" && env-cmd -f .env.production yarn build",
+}
+```
