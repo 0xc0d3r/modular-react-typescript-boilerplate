@@ -1,21 +1,25 @@
-import React, { Suspense } from 'react';
-import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import React, { Suspense } from 'react'
+import { BrowserRouter as Router, Switch } from 'react-router-dom'
 
-import commonRoutes from './CommonRoutes';
-// import other modules routes here
+import todoAppRoutes from '../../TodoApp/routes'
 
-import Loader from '../components/Loader';
+import Loader from '../components/Loader'
+
+import commonRoutes from './CommonRoutes'
 
 export const routes = () => (
   <Router>
     <Suspense
       fallback={
-        <div className="suspense-loading-view">
+        <div className='suspense-loading-view'>
           <Loader />
         </div>
       }
     >
-      <Switch>{commonRoutes}</Switch>
+      <Switch>
+        {todoAppRoutes}
+        {commonRoutes}
+      </Switch>
     </Suspense>
   </Router>
-);
+)

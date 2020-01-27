@@ -1,15 +1,15 @@
 {
-   "overrides": [
-      {
-         "files": "*.test.js",
-         "options": {
-            "semi": false
-         }
+  "overrides": [
+    {
+      "files": "*.test.ts",
+      "options": {
+        "semi": false
       }
-   ],
-   "singleQuote": true,
-   "jsxSingleQuote": true,
-   "semi": false,
-   "printWidth": 80,
-   "tabWidth": 3
+    }
+  ],
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "semi": false,
+  "printWidth": 80,
+  "tabWidth": 2
 }
