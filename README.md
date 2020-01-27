@@ -117,6 +117,7 @@ If we do not follow the best practices, your code will become messy and develope
 #### Clean Code
 
 ![Clean Code Image](https://camo.githubusercontent.com/0607e034aee88cce40b832367d44265e01b42654/68747470733a2f2f7777772e6f736e6577732e636f6d2f696d616765732f636f6d6963732f7774666d2e6a7067)
+_(above image used from https://github.com/ryanmcdermott/clean-code-javascript)_
 
 > Programming is the art of telling another human what one wants the computer to do.
 > Donald Knuth
@@ -130,6 +131,7 @@ Thanks to [ryanmcdermott](https://github.com/ryanmcdermott) for creating [clean-
 The Test Driven Development (TDD) is a software engineering practice that requires unit tests to be written before the code they are supposed to validate.
 
 ![TDD Cycle](https://hackernoon.com/hn-images/1*2IVfvMKBCcwHJYO7-HZRDA.png)
+_(above image used from https://hackernoon.com/introduction-to-test-driven-development-tdd-61a13bc92d92)_
 
 Check the implementation of the [Todo App](https://github.com/0xc0d3r/todo-app-with-tdd) following TDD and I committed for each state. You can see Red, Green, and Refactor commits.
 
