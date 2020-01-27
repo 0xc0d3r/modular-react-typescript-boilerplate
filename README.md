@@ -14,7 +14,7 @@ A modular boilerplate suitable for large and complex applications built with lat
 
    5.1 [Clean Code](#clean-code)
 
-   5.2 [Test-driven Development](#tdd)
+   5.2 [Test-driven Development](#test-driven-development)
 
 6. [Contributing](#contributing)
 
@@ -125,7 +125,7 @@ Clean code is about recognizing that your audience isn't just a computer, it's r
 
 Thanks to [ryanmcdermott](https://github.com/ryanmcdermott) for creating [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript).
 
-#### Test-driven Development (TDD)
+#### Test-driven Development
 
 The Test Driven Development (TDD) is a software engineering practice that requires unit tests to be written before the code they are supposed to validate.
 
