@@ -1,4 +1,8 @@
 import React, { ReactElement } from 'react'
+import { withRouter } from 'react-router-dom'
+import { History } from 'history'
+
+import ModulesSection from '../../components/ModulesSection'
 
 import {
   HomePageContainer,
@@ -9,7 +13,12 @@ import {
 
 import ReactMobXTSLogo from './react_mobx_typescript.png'
 
-function HomePage(): ReactElement {
+interface HomePageProps {
+  history: History
+}
+
+function HomePage(props: HomePageProps): ReactElement {
+  const { history } = props
   return (
     <HomePageContainer>
       <Header>
@@ -18,8 +27,9 @@ function HomePage(): ReactElement {
       <ReactMobXTSContainer>
         <img src={ReactMobXTSLogo} alt='React MobX TypeScript' />
       </ReactMobXTSContainer>
+      <ModulesSection history={history} />
     </HomePageContainer>
   )
 }
 
-export default HomePage
+export default withRouter(HomePage)

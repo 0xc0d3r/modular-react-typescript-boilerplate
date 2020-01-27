@@ -8,7 +8,7 @@ export const HomePageContainer = styled.div`
 
 export const Header = styled.div`
     height: 60px;
-    background-color: ${Colors.primaryColor};
+    background-color: ${Colors.primaryColor };
 
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@ export const Header = styled.div`
 
 export const HeaderText = styled.span`
     margin-left: 20px;
-    color: ${Colors.white};
+    color: ${Colors.white };
     font-size: 32px;
     font-weight: bold;
 `

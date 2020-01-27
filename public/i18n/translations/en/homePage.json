@@ -1,0 +1,7 @@
+{
+  "appName": "Modular React MobX Typescript Boilerplate",
+  "modules": {
+    "title": "Modules",
+    "todoApp": "Todo App"
+  }
+}
