@@ -20,7 +20,7 @@
       "i18next-xhr-backend": "3.2.2",
       "js-cookie": "2.2.1",
       "lint-staged": "9.4.3",
-      "madge": "3.6.0",
+      "madge": "4.0.1",
       "mobx": "5.15.0",
       "mobx-react": "6.1.4",
       "node-sass": "4.13.0",
